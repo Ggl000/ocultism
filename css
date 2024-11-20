@@ -1,0 +1,58 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+.overlay {
+    background-image: url('https://img.freepik.com/fotos-premium/dia-do-oculto_837074-15139.jpg?w=360');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+main {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+footer {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
